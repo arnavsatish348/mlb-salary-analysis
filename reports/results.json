@@ -1,0 +1,30 @@
+{
+  "rows": 10997,
+  "players": 1968,
+  "seasons": "1985-2016",
+  "train_rows": 9223,
+  "test_rows": 1774,
+  "test_years": "2012-2016",
+  "regression": {
+    "Linear regression": {
+      "r2": 0.654,
+      "mae_dollars": 2557065
+    },
+    "Gradient boosting": {
+      "r2": 0.81,
+      "mae_dollars": 1851916
+    }
+  },
+  "top_quartile_classifier": {
+    "accuracy": 0.872,
+    "roc_auc": 0.947,
+    "baseline_accuracy": 0.676
+  },
+  "top_drivers": {
+    "career_H": 0.556,
+    "career_G": 0.138,
+    "AB": 0.062,
+    "career_HR": 0.027,
+    "seasons_played": 0.025
+  }
+}
